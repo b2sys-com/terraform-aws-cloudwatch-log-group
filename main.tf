@@ -12,7 +12,7 @@
 
 resource "aws_cloudwatch_log_group" "main" {
   #  name_prefix       = "${var.name}-${local.service_id}-"
-  name_prefix       = var.name
+  //name_prefix       = var.name
   name              = "test"
   retention_in_days = var.retention_in_days
   #  kms_key_id        = var.kms_key_id
